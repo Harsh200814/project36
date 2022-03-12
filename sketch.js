@@ -67,7 +67,6 @@ function readStock(data){
 function feedDog(){
   dog.addImage(happyDog);
   var food_stock_val = foodObj.getFoodStock();
-var food_stock_val = foodObj.getFoodStock();
 if(food_stock_val <= 0){
 foodObj.updateFoodStock(food_stock_val *0);
 }else{
